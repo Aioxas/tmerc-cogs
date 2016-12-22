@@ -26,7 +26,7 @@ class Randimals:
 
     @commands.command(pass_context=True, no_pm=True, name="dog")
     async def _dog(self, context: commands.context.Context):
-        """Shows a random dog."""
+        """Shows a random doggy, yaaaaay."""
 
         await self.bot.type()
         url = "http://random.dog/"
